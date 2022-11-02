@@ -19,7 +19,7 @@ You can download the source code packages from [GitHub Release Page](https://git
 
 # SIMPLE EXAMPLE USAGE
 
-```
+```php
 $text = 'This is an example QR code';
 $file = __DIR__.'/example-qr.png';
 
@@ -31,7 +31,7 @@ echo 'QR code saved at '.$file;
 
 # ADVANCED EXAMPLE USAGE
 
-```
+```php
 <?php
 include 'vendor/autoload.php';
 
